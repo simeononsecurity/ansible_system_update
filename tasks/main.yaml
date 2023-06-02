@@ -8,3 +8,4 @@
   block:
     - include_task: windows_update.yml
   when: ansible_facts['ansible_distribution'] == 'Windows'
+  
