@@ -10,13 +10,7 @@ galaxy_info:
     - name: Debian
       versions:
         - all
-    - name: RedHat
-      versions:
-        - all
-    - name: CentOS
-      versions:
-        - all
-    - name: Rocky Linux
+    - name: EL
       versions:
         - all
     - name: Alpine
@@ -36,13 +30,7 @@ platforms:
   - name: Debian
     versions:
       - all
-  - name: RedHat
-    versions:
-      - all
-  - name: CentOS
-    versions:
-      - all
-  - name: Rocky Linux
+  - name: EL
     versions:
       - all
   - name: Alpine
