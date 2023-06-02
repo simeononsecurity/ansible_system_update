@@ -21,6 +21,12 @@ None
 
 ## Usage
 
+
+### Installation
+```bash
+ansible-galaxy install simeononsecurity.system_update
+```
+
 To use this role, include it in your playbook as shown in the example below:
 
 ```yaml
