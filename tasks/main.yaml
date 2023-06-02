@@ -2,9 +2,9 @@
 - name: Run Linux update playbook
   when: ansible_facts['ansible_distribution'] == 'Linux'
   block:
-    - import_tasks: linux_update.yml
+    - import_tasks: linux_update.yaml
 
 - name: Run Windows update playbook
   when: ansible_facts['ansible_distribution'] == 'Windows'
   block:
-    - import_tasks: windows_update.yml
+    - import_tasks: windows_update.yaml
