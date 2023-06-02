@@ -4,15 +4,53 @@ galaxy_info:
   description: Role to automate patching of both Linux and Windows systems.
   min_ansible_version: "2.10"
   platforms:
-    - name: Linux
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: RedHat
+      versions:
+        - all
+    - name: CentOS
+      versions:
+        - all
+    - name: Rocky Linux
+      versions:
+        - all
+    - name: Alpine
+      versions:
+        - all
     - name: Windows
+      versions:
+        - all
   author: SimeonOnSecurity
   license: MIT
   galaxy_tags: []
 
 platforms:
-  - name: Linux
+  - name: Ubuntu
+    versions:
+      - all
+  - name: Debian
+    versions:
+      - all
+  - name: RedHat
+    versions:
+      - all
+  - name: CentOS
+    versions:
+      - all
+  - name: Rocky Linux
+    versions:
+      - all
+  - name: Alpine
+    versions:
+      - all
   - name: Windows
+    versions:
+      - all
 
 dependencies: []
 
