@@ -1,0 +1,20 @@
+---
+- name: Check for available Windows updates
+  ansible.windows.win_updates:
+    category_names:
+      - SecurityUpdates
+    state: searched
+  become: true
+  register: win_updates_result
+  tags:
+    - windows_update
+
+- name: Install Windows updates if available
+  ansible.windows.win_updates:
+    category_names:
+      - SecurityUpdates
+    state: installed
+  become: true
+  when: win_updates_result.updates|length > 0
+  tags:
+    - windows_update

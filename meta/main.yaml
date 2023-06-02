@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  role_name: system_update
+  description: Role to automate patching of both Linux and Windows systems.
+  min_ansible_version: "2.10"
+  platforms:
+    - name: Linux
+    - name: Windows
+  author: SimeonOnSecurity
+  license: MIT
+  galaxy_tags: []
+
+platforms:
+  - name: Linux
+  - name: Windows
+
+dependencies: []
+
+license: MIT
+license_file: LICENSE

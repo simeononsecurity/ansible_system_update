@@ -1,0 +1,8 @@
+---
+- name: Run Linux update playbook
+  include_playbook: linux_update.yml
+  when: ansible_facts['ansible_distribution'] == 'Linux'
+
+- name: Run Windows update playbook
+  include_playbook: windows_update.yml
+  when: ansible_facts['ansible_distribution'] == 'Windows'
