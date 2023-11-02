@@ -43,6 +43,6 @@ MIT
 
 ## Author Information:
 This role was created by SimeonOnSecurity.
-For more information, visit [SimeonOnSecurity.ch](https://SimeonOnSecurity.ch).
+For more information, visit [SimeonOnSecurity.com](https://SimeonOnSecurity.com).
 
-## [Learn more about Ansible Best Practice](https://simeononsecurity.ch/articles/secure-coding-standards-for-ansible/)
+## [Learn more about Ansible Best Practice](https://simeononsecurity.com/articles/secure-coding-standards-for-ansible/)
