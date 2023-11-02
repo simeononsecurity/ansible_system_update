@@ -3,12 +3,12 @@ namespace: simeononsecurity
 name: "system_update"
 description: "Role to automate patching of both Linux and Windows systems."
 readme: README.md
-version: 1.0.0
-homepage: https://simeononsecurity.ch
+version: 1.0.1
+homepage: https://simeononsecurity.com/articles/secure-coding-standards-for-ansible/
 issues: https://github.com/simeononsecurity/ansible_system_update/issues
 repository: https://github.com/simeononsecurity/ansible_system_update
 authors:
-  - SimeonOnSecurity (https://simeononsecurity.ch)
+  - SimeonOnSecurity (https://simeononsecurity.com)
 license_file: LICENSE
 tags:
 - role
